@@ -39,13 +39,13 @@ def main():
         # it sorts by coding not language order
         # od = collections.OrderedDict(sorted(dic.items()))
         # for k, v in od.items():
-        #     print(k, v)
+        #     print(k+'\t'+str(v))
 
         # Use the Hungarian letters
         hunletters = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz"
         for l in hunletters:
             if (dic.get(l) != None):
-                print(l, dic.get(l))
+                print(l+'\t'+str(dic.get(l)))
 
 
 
